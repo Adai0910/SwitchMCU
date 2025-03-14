@@ -1,0 +1,5 @@
+# Midterm Report
+
+This repository contains the LaTeX source files for the midterm report, generated using Overleaf.  
+The main LaTeX file is **`report.tex`**, and all necessary references and figures are included.  
+To compile the report, open `report.tex` in Overleaf and click "Recompile."
