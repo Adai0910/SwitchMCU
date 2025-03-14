@@ -72,7 +72,7 @@ However, current work from the previous semesters requires revisions and additio
 
 This file is then fed through a simplified physical design flow provided by ELEC 527: VLSI Systems Design Framework. These steps begin with a functional simulation in Questa. The design and testbench files, written in Verilog, are compiled, simulated, and run in the GUI. The waveforms are then analyzed to check for any potential issues. 
 
-Next, the output(s) are passed along to Synopsys Design Compiler for synthesis, which is the process of converting RTL into a gate-level netlist using standard cells. The design is optimized for performance, power, and PPA constraints. The synthesized Verilog output is then once again examined in Questa. 
+Next, the output(s) are passed along to Synopsys Design Compiler for synthesis, which is the process of converting RTL into a gate-level netlist using standard cells. The design is optimized for performance, power, and area constraints. Then the synthesized Verilog output is once again examined in Questa.
 
 The final component is place and route in Innovus. The software reads the netlist, places the standard cells within the chip layout, routes the interconnections between the cells, and generates both a physical design report and a GDSII layout. Since the AND structure files provided for this assignment have already been validated and refined, many intermediary steps between synthesis and place-and-route have been excluded.
 
